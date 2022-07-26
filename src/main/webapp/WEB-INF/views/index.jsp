@@ -9,13 +9,13 @@
 <title>Index</title>
 </head>
 <body>
-<h1>This is the index page</h1>
-<!-- <form class="form" action="/displayWeather" method="post">
+<h1>Weather Search</h1>
+ <form class="form" action="/weather-display" method="post">
        
         <table>
        
-       		<tr><td>Latitude: </td><td><input type="number" name="latitude"/></td></tr>
-       		<tr><td>Longitude: </td><td><input type="number" name="longitude"/></td></tr>
+       		<tr><td>Latitude: </td><td><input type="text" name="latitude" placeholder="ex 45.1235"/></td></tr>
+       		<tr><td>Longitude: </td><td><input type="text" name="longitude" placeholder="ex -82.4523"/></td></tr>
        		
        		
 			
@@ -27,6 +27,6 @@
         <input class="button" type="reset" value="Reset" />
        
 
-        </form> -->
+        </form> 
 </body>
 </html>
